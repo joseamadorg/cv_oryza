@@ -1,0 +1,150 @@
+/* ~RESET ~ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* ~ HTML5 display-role reset for older browsers ~ */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ~ /RESET ~ */
+/* TIPOGRAFIAS */
+* {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* ~ HERO ~ */
+.hero {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  /* ~ /HERO__IZQ ~ */
+}
+
+.hero__izq {
+  background-image: url("https://news.virginia.edu/sites/default/files/article_image/fall_2020_planning_cmte_da_header.jpg");
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.hero__izq::after {
+  content: ' ';
+  background: #232D4B;
+  opacity: 0.6;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.hero__figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  position: relative;
+  z-index: 9999;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero__img {
+  padding: 0px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px -24px 4px -12px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, -1px -24px 4px -12px rgba(0, 0, 0, 0);
+  border: 0.5rem solid #E57200;
+}
+
+.hero__name {
+  display: block;
+  font-size: 2.3rem;
+  margin-top: 0.9rem;
+  text-align: center;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem;
+  border-left: 5px solid #E57200;
+  color: #232D4B;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px -24px 4px -12px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, -1px -24px 4px -12px rgba(0, 0, 0, 0);
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-top: 0.9rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hero__caption {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero__der {
+  background-color: #E57200;
+}
