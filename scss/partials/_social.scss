@@ -1,0 +1,37 @@
+.social__container {
+    z-index: 105;
+    cursor: pointer;
+    background: $uvaOrange;
+    padding: .3rem;
+    border-radius: 5px;
+    margin: .5rem 0rem;
+}
+
+.social__icon {
+    font-size: 1rem;
+    color: white;
+    margin: 0rem .3rem;
+}
+
+
+.social__icon--hover{
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .social__icon--hover:hover .tooltip-text {
+    visibility: visible;
+}
+
+  .tooltip-bottom{
+    top: 25px;
+  }

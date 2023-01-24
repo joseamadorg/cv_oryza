@@ -25,6 +25,7 @@
             width: 100%;
             position: absolute;
         }
+        
     } /* ~ /HERO__IZQ ~ */
 
     &__figure {
@@ -37,8 +38,9 @@
     }
     &__img {
         padding: 0px;
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: auto;
+        object-fit: cover;
         border-radius: 50%;
         -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px -24px 4px -12px rgba(0,0,0,0); 
         box-shadow: 0px 10px 13px -7px #000000, -1px -24px 4px -12px rgba(0,0,0,0);
@@ -47,12 +49,13 @@
     
     &__name {
         display: block;
-        font-size: 2.3rem;
+        letter-spacing: 0.8px; 
+        font-size: 2.8rem;
         margin-top: 0.9rem;
         text-align: center;
         font-weight: 700;
         background: rgba(255, 255, 255, 0.6);
-        padding: 0.5rem;
+        padding: 0.5rem 2rem;
         border-left: 5px solid $uvaOrange;
         color: $uvaBlue;
         -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px -24px 4px -12px rgba(0,0,0,0); 
@@ -60,7 +63,7 @@
     }
 
     &__subtitle{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-top: 0.9rem;
         text-align: center;
         font-weight: 700;
@@ -73,20 +76,36 @@
         text-align: center;
         font-weight: 700;
         color: #fff;
+        letter-spacing: 0.8px
+    }
+
+    &__der{
+        background-color: #E57200;
+        position: absolute;
+        right: 0px;
+        height: 100%;
+        width: 50%;
+        padding: 50px 120px;
+        overflow: auto;
+        color: white;
+        line-height: 1.5;
+        &--title {
+            font-size: 2rem;
+        }
+        &--container{
+            display: flex;
+            align-items: center;
+        }
+        &--h3 {
+            margin-left: 0.5rem;
+            font-size: 1.3rem;
+        }   
     }
 }
 
-.hero__der{
-    background-color: #E57200;
-    position: absolute;
-    right: 0px;
-    height: 100%;
-    width: 50%;
-    padding: 50px 120px;
-    overflow: auto;
-    color: white;
-    line-height: 1.5;
-        
+.flag{
+    width: 24px;
 }
+
 
 
