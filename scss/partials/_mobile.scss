@@ -1,0 +1,46 @@
+/* MOBILE STYLES   */
+
+@media screen and (max-width: 992px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+    .hero__izq {
+        top: 0px;
+        width: 100%;
+        z-index: 100;
+        border-right: none !important;
+    }
+
+    .hero__figure {
+        width: 100%;
+    }
+
+    .hero__img {
+        width: 160px;
+        border: 0.4rem solid $uvaOrange;
+    }
+
+    .hero__name {
+        font-size: 2rem;
+    }
+
+    .hero__subtitle {
+        font-size: 1.3rem;
+    }
+
+    .quote {
+        padding: 1rem;
+    }
+
+    .hero__der {
+        background-color: #ffffff;
+        position: relative;
+        top: 100vh;
+        height: 100%;
+        width: 100%;
+        padding: 1.5rem 1rem;
+        z-index: 101;
+        overflow: scroll;
+    }
+
+}
