@@ -236,6 +236,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     z-index: 100;
     border-right: none !important;
+    background-size: unset;
   }
   .hero__figure {
     width: 100%;
@@ -262,5 +263,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1.5rem 1rem;
     z-index: 101;
     overflow: scroll;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero__img {
+    width: 170px;
+    border: 0.4rem solid #E57200;
   }
 }
