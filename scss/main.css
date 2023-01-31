@@ -53,6 +53,10 @@ table {
   border-spacing: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ~ /RESET ~ */
 /* TIPOGRAFIAS */
 p, span, blockquote {
@@ -237,6 +241,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .tooltip-bottom {
   top: 25px;
+}
+
+.btn-down {
+  font-weight: 900;
+  color: #E57200;
+  font-size: 3rem;
+  z-index: 9999;
+  position: relative;
 }
 
 .footer {

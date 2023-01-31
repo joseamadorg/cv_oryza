@@ -35,3 +35,11 @@
   .tooltip-bottom{
     top: 25px;
   }
+
+  .btn-down {
+    font-weight: 900;
+    color: $uvaOrange;
+    font-size: 3rem;
+    z-index: 9999;
+    position: relative;
+  }
