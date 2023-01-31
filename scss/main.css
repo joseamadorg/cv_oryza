@@ -54,7 +54,7 @@ table {
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 /* ~ /RESET ~ */
@@ -65,7 +65,7 @@ p, span, blockquote {
   font-size: 0.875rem;
 }
 
-ul {
+ul, a {
   font-family: "Lato", sans-serif;
   font-size: 0.875rem;
 }
@@ -249,10 +249,27 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
   z-index: 9999;
   position: relative;
+  top: -10px;
 }
 
-.footer {
-  background-color: #232D4B;
+.btn__down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  z-index: 888;
+}
+
+footer {
+  background: #E57200;
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
 }
 
 /* ----------------------------------------------
@@ -338,5 +355,10 @@ h1, h2, h3, h4, h5, h6 {
   .hero__img {
     width: 170px;
     border: 0.4rem solid #E57200;
+  }
+}
+@media screen and (min-width: 993px) {
+  footer, .btn-down, .btn__down {
+    display: none;
   }
 }
