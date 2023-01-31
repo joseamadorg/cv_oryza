@@ -82,6 +82,18 @@
         letter-spacing: 0.8px
     }
 
+    &__btn{
+            display: inline-block;
+            background: $uvaOrange;
+            padding: 0.5rem;
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Lato', sans-serif;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            margin-top: 5px;
+    }
+
     &__der{
         background-color: #ffffff;
         position: absolute;

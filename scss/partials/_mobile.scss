@@ -44,6 +44,10 @@
         overflow: scroll;
     }
 
+    .hero__der--title {
+        font-size: 1.5rem;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -52,3 +56,4 @@
         border: 0.4rem solid $uvaOrange;
     }
 }
+
