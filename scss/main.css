@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   /* ~ /HERO__IZQ ~ */
 }
 .hero__izq {
-  background-image: url("../../img/rotunda.jpg");
+  background-image: url("../../img/rotunda.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -119,8 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero__img {
   padding: 0px;
-  width: attr(width);
-  height: attr(height);
+  aspect-ratio: attr(width)/attr(height);
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
@@ -193,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .flag {
-  width: 24px;
+  aspect-ratio: attr(width)/attr(height);
 }
 
 .quote {
