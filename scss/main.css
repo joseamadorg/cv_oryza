@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   /* ~ /HERO__IZQ ~ */
 }
 .hero__izq {
-  background-image: url("https://news.virginia.edu/sites/default/files/article_image/fall_2020_planning_cmte_da_header.jpg");
+  background-image: url("../../img/rotunda.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
