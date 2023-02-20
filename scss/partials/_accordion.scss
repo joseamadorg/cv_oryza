@@ -1,0 +1,33 @@
+  .accordion-item {
+    border-bottom: 1px solid $uvaBlue;
+  }
+  
+  .accordion-header {
+    color: $uvaBlue;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem; 
+  }
+  
+  .accordion-header h2 {
+    margin: 0;
+  }
+  
+  .accordion-header i {
+    font-size: 1rem;
+  }
+  
+  .accordion-content {
+    color: $uvaBlue;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .accordion-item.active .accordion-content {
+    max-height: 1000px !important;
+    margin-bottom: 1rem; 
+  }
+  

@@ -91,6 +91,7 @@
             border-radius: 5px;
             font-size: 0.8rem;
             margin-top: 5px;
+            align-self: start;
     }
 
     &__der{
@@ -99,8 +100,8 @@
         right: 0px;
         height: 100%;
         width: 50%;
-        padding: 3.125rem 5rem;
-        overflow: auto;
+        padding: 3.125rem 4rem;
+        overflow-y: scroll;
         color: $uvaBlue;
         line-height: 1.5;
         &--title {
@@ -111,6 +112,7 @@
         }
         &--container{
             display: flex;
+            flex-direction: column;
             align-items: center;
         }
         &--h3 {
@@ -118,6 +120,11 @@
             font-size: 1.35rem;
         }   
     }
+}
+
+.flex{
+    display: flex;
+    align-items: center;
 }
 
 .flag{
