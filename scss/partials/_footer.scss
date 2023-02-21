@@ -1,11 +1,15 @@
 footer {
-    background: $uvaOrange;
     display: flex;
     justify-content: center;
-    a{
+    position: relative;
+    top: 15rem; 
+    button {
         text-decoration: none;
         color: #fff;
-        font-size: 0.8rem;
-        
+        font-size: 1rem;
+        border: none;
+        background: $uvaOrange;
+        width: 100%;
+        padding: 0.5rem 1rem;
     }
 }

@@ -31,3 +31,16 @@ accordionItems.forEach(item => {
     }
   });
 });
+
+const info = document.getElementById('info');
+
+function toggleHeroDerTop() {
+    const heroDer = document.querySelector('.hero__der');
+    const isOpen = heroDer.classList.contains('hero__der--open');
+    heroDer.classList.toggle('hero__der--open');
+    heroDer.style.top = isOpen ? '100vh' : '0vh';
+  }
+  
+
+  
+

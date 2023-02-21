@@ -92,6 +92,7 @@
             font-size: 0.8rem;
             margin-top: 5px;
             align-self: start;
+            z-index: 888;
     }
 
     &__der{
@@ -104,6 +105,7 @@
         overflow-y: scroll;
         color: $uvaBlue;
         line-height: 1.5;
+        transition: top 0.3s ease-in-out; 
         &--title {
             font-size: 2rem;
         }
@@ -141,5 +143,20 @@
     font-size: 0.8rem;
 }
 
+.toggle__btn {
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    background: $uvaOrange;
+    width: 100%;
+    z-index: 888;
+    position: absolute;
+    bottom: 0px;
+    padding: 1rem;
+}
 
-
+.ml{
+    margin-left: 5px;
+}
