@@ -9,11 +9,10 @@
         width: 100%;
         z-index: 100;
         border-right: none !important;
-        background-size: unset; 
     }
 
     .hero__figure {
-        width: 100%;
+        width: 90%;
     }
 
     .hero__img {
@@ -33,6 +32,7 @@
     .quote {
         padding: 1rem;
         margin-bottom: 1.5rem;
+        font-size: 0.8rem;
     }
 
     .hero__der {
