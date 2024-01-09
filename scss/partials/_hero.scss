@@ -5,14 +5,15 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     &__izq{
-        background-image: url("../../img/rotunda.webp");
-        background-position: center;
-        background-size: cover;
+        background-image: url("../../img/aida_2024.jpg");
+        background-position-x: 75%;
+        background-position-y: 90%;
+        background-size: 170%;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         position: fixed;
         width: 50vw;
         height: 100%;
@@ -20,9 +21,8 @@
         border-right: 10px solid $uvaOrange;
         
         &::after {
-            content: ' ';
-            background: $uvaBlue;
-            opacity: 0.6;
+            content: " ";
+            background: linear-gradient(to top, rgba(229,114, 1) 0%, rgba(229, 111, 114, 0) 60%);
             height: 100%;
             width: 100%;
             position: absolute;
@@ -51,7 +51,7 @@
     &__name {
         display: block;
         letter-spacing: 0.8px; 
-        font-size: 4rem;
+        font-size: 5rem;
         margin-top: 1.2rem;
         text-align: center;
         font-weight: 700;
@@ -64,10 +64,10 @@
     }
 
     &__subtitle{
-        font-size: 1.8rem;
-        margin-top: 0.9rem;
+        font-size: 2rem;
         text-align: center;
         font-weight: 700;
+        display: block;
     }
 
     &__caption{
