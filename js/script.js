@@ -1,4 +1,4 @@
-const accordionItems = document.querySelectorAll('.accordion-item');
+/* const accordionItems = document.querySelectorAll('.accordion-item');
             
 accordionItems.forEach(item => {
   const header = item.querySelector('.accordion-header');
@@ -30,7 +30,30 @@ accordionItems.forEach(item => {
       item.querySelector('.accordion-header i').classList.add('fa-chevron-up');
     }
   });
+}); */
+
+const accordionItems = document.querySelectorAll('.accordion-item');
+
+accordionItems.forEach(item => {
+  const header = item.querySelector('.accordion-header');
+
+  header.addEventListener('click', () => {
+    const isActive = item.classList.contains('active');
+
+    accordionItems.forEach(accItem => {
+      if (accItem !== item && accItem.classList.contains('active')) {
+        accItem.classList.remove('active');
+      }
+    });
+
+    if (!isActive) {
+      item.classList.add('active');
+    } else {
+      item.classList.remove('active');
+    }
+  });
 });
+
 
 const info = document.getElementById('info');
 

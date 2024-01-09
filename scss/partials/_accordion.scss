@@ -18,16 +18,16 @@
   .accordion-header i {
     font-size: 1rem;
   }
-  
+
   .accordion-content {
     color: $uvaBlue;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease;
+    transition: max-height 0.2s ease-out;
   }
   
   .accordion-item.active .accordion-content {
-    max-height: 2000px !important;
+    max-height: 2000px; /* Establece una altura máxima adecuada */
     margin-bottom: 1rem; 
   }
   
