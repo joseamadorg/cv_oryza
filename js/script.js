@@ -67,3 +67,8 @@ function toggleHeroDerTop() {
 
   
 
+  window.addEventListener('load', function() {
+    var pantallaCarga = document.getElementById('pantalla-carga');
+    pantallaCarga.style.display = 'none';
+  });
+  
