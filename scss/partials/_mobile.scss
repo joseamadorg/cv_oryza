@@ -24,11 +24,16 @@
     }
 
     .hero__name {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
 
     .hero__subtitle {
-        font-size: 1.3rem;
+        font-size: 1rem;
+    }
+
+    .hero__caption {
+        font-size: 1rem; 
+        letter-spacing: 0px;
     }
 
     .quote {
