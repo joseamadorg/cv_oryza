@@ -16,7 +16,7 @@
         justify-content: flex-end;
         position: fixed;
         width: 50vw;
-        height: 100vh;
+        height: 100%;
         z-index: 100;
         border-right: 10px solid $uvaOrange;
         
@@ -143,17 +143,20 @@
 }
 
 .toggle__btn {
-    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-family: "Lato","Helvetica",sans-serif;
     text-decoration: none;
     color: #fff;
     font-size: 1rem;
     border: none;
     background: $uvaBlue;
-    width: 100%;
+    width: 50px; /* Ancho igual a la altura para hacerlo redondo */
+    height: 50px; /* Altura igual al ancho para hacerlo redondo */
+    border-radius: 50%; /* Hace que el botón sea redondo */
     z-index: 888;
-    position: absolute;
-    bottom: 0px;
     padding: 1rem;
+    display: flex; /* Agregado para centrar contenido verticalmente */
+    align-items: center; /* Agregado para centrar contenido verticalmente */
+    justify-content: center; /* Agregado para centrar contenido horizontalmente */
 }
 
 .ml{
