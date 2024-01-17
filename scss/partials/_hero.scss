@@ -157,6 +157,8 @@
     display: flex; /* Agregado para centrar contenido verticalmente */
     align-items: center; /* Agregado para centrar contenido verticalmente */
     justify-content: center; /* Agregado para centrar contenido horizontalmente */
+    -webkit-animation: pulsate-fwd 0.8s ease-in-out infinite both;
+	        animation: pulsate-fwd 0.8s ease-in-out infinite both;
 }
 
 .ml{
